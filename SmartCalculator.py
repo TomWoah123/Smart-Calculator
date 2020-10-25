@@ -1,15 +1,15 @@
 # write your code here
 
 def compute(arr):
-    if isInvalidArr(arr):
-        print("Invalid expression")
-        return
+    # if isInvalidArr(arr):
+    #     print("Invalid expression")
+    #     return
     subtract = False
     result = 0
     for thing in arr:
-        if isInvalidExp(thing):
-            print("Invalid expression")
-            return
+        # if isInvalidExp(thing):
+        #     print("Invalid expression")
+        #     return
         if not thing.lstrip('-').isdigit():
             for sign in thing:
                 if sign == '-':
@@ -54,9 +54,9 @@ def isInvalidArr(arr):
             return True
     return False
 
-
 while True:
     array = input().split()
+    dic = {}
     if len(array) == 0:
         continue
     elif len(array) == 1:
