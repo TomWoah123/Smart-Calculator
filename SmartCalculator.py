@@ -22,6 +22,7 @@ def compute(arr):
     print(result)
 
 
+# Needs work
 def isInvalidExp(exp):
     if not exp.lstrip('+-').isdigit():
         return True
