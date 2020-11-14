@@ -1,4 +1,4 @@
-# write your code here
+# Needs to fix the isInvalidArr and isInvalidExp functions.
 
 def compute(arr):
     # if isInvalidArr(arr):
